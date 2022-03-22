@@ -16,6 +16,8 @@ An example of blob imports and exports using C# Azure Functions.
 
 ## Setup
 
+The **Data/schema.sql** script will set up the initial database schema.
+
 The following settings are needed in local.settings.json file:
 
 ```json
@@ -29,3 +31,7 @@ The following settings are needed in local.settings.json file:
   }
 }
 ```
+
+## Running
+
+The **test.rest** file can be used in VS Code along with the [Rest Client Extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) for making HTTP calls to the locally running Function App.
